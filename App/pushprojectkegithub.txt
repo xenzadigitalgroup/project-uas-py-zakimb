@@ -1,0 +1,50 @@
+1. Persiapan GitHub
+Buat Repository Baru:
+Buka GitHub dan login.
+Klik tombol New Repository.
+Masukkan nama repository (misalnya: project-python).
+Pilih Public atau Private.
+Klik Create Repository.
+
+2. Persiapan Lokal
+Pastikan Git sudah diinstal di komputer Anda. Cek dengan:
+git --version
+
+Inisialisasi Git di Folder Project:
+Buka terminal di folder project Anda.
+Jalankan perintah berikut:
+git init
+3. Buat .gitignore
+Buat file .gitignore untuk mengecualikan file atau folder tertentu (seperti virtual environment dan file cache Python).
+
+Contoh isi .gitignore:
+myenv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Simpan file ini di root project Anda.
+
+4. Tambahkan File ke Git
+Tambahkan semua file ke Git dengan perintah:
+git add .
+
+Periksa file yang akan ditambahkan dengan:
+git status
+
+5. Commit Perubahan
+Buat commit awal:
+git commit -m "Initial commit"
+
+6. Hubungkan ke Repository GitHub
+Hubungkan repository lokal ke GitHub dengan URL yang Anda dapatkan dari repository GitHub:
+git remote add origin https://github.com/<username>/<repository>.git
+Ganti <username> dengan nama pengguna GitHub Anda, dan <repository> dengan nama repository yang Anda buat.
+
+7. Upload ke GitHub
+Upload project Anda dengan perintah:
+git branch -M main
+git push -u origin main
+
+8. Verifikasi
+Buka repository Anda di GitHub untuk memastikan project berhasil diunggah.

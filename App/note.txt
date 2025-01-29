@@ -1,0 +1,13 @@
+// Modul yang di butuhkan
+
+// 1. Modul untuk menghubungkan ke database
+// pip install mysql-connector-python
+
+// 2. Modul untuk menampilkan data dari database dalam format tabel yang rapi (opsional)
+// pip install prettytable
+
+// 3. Virtual Environment (opsional)
+// python -m venv myenv
+// aktifkan environment mac : source myenv/bin/activate atau windows : myenv\Scripts\activate
+
+// Saya menggunakan modul di atas pada project ini.

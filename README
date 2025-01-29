@@ -1,0 +1,64 @@
+# Program ini dibuat oleh ZAKI MUSHTHAFA BILLAH
+
+### Informasi Pribadi
+
+- **Nama**: ZAKI MUSHTHAFA BILLAH
+- **Mahasiswa Fakultas Ilmu Komputer**
+- **Universitas Putra Indonesia "YPTK" Padang**
+- **Kelas**: IF-1
+- **No. Bp**: 23101152630041
+
+---
+
+### Catatan Program
+
+Program ini **tidak tersedia pada repo GitHub**.
+
+Jika Anda menginginkan program ini atau mengalami kendala terkait program ini, silakan hubungi saya di:
+
+- 📧 Email: [zakimb@technovagroupinc.com](mailto:zakimb@technovagroupinc.com)
+- 🌐 Informasi lebih lanjut: [https://technovagroupinc.com/](https://technovagroupinc.com/)
+- 👨‍💻 Ingin belajar ngoding? Kunjungi [Devsphere Academy](https://devsphereacademy.my.id/)
+
+---
+
+### Cara Kerja Program
+
+Program ini adalah aplikasi untuk **mengelola customer, produk, dan order**. Untuk menjalankan program ini, Anda harus menginstal beberapa dependensi terlebih dahulu:
+
+1. **Instalasi Mien (Environment)**:
+
+   - Pastikan Anda sudah menginstal [Python](https://www.python.org/downloads/) di sistem Anda.
+   - Buat environment menggunakan `virtualenv` atau `venv` untuk memisahkan dependensi:
+     ```bash
+     python -m venv myenv
+     source myenv/bin/activate  # Untuk pengguna macOS/Linux
+     myenv\Scripts\activate     # Untuk pengguna Windows
+     ```
+
+2. **Instalasi Dependensi**:
+
+   - Setelah environment aktif, instal dependensi berikut:
+     - **MySQL Connector** untuk koneksi ke MySQL:
+       ```bash
+       pip install mysql-connector-python
+       ```
+     - **PrettyTable** untuk menampilkan data dalam format tabel yang rapi:
+       ```bash
+       pip install prettytable
+       ```
+
+3. **Jalankan Program**:
+   - Pastikan MySQL sudah terinstal dan Anda memiliki database yang dibutuhkan untuk menjalankan program ini.
+   - Jalankan program dengan menggunakan perintah:
+     ```bash
+     python program.py
+     ```
+
+---
+
+### Lisensi
+
+Program ini bersifat **Open Source**, silakan digunakan dan didistribusikan dengan bebas. Namun, jika digunakan untuk kepentingan komersial, silakan hubungi saya terlebih dahulu.
+
+> "Kita adalah anak-anak bangsa, kita harus berkontribusi pada bangsa kita."
