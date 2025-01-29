@@ -1,3 +1,12 @@
+#### Clone Repositori dari GitHub
+
+Jika Anda ingin menyalin seluruh repositori ke mesin lokal Anda, Anda bisa menggunakan perintah `git clone`:
+
+- **Clone Repositori**:
+  ```bash
+  git clone https://github.com/xenzadigitalgroup/project-uas-py-zakimb.git
+  ```
+
 # Program ini dibuat oleh ZAKI MUSHTHAFA BILLAH
 
 ### Informasi Pribadi
@@ -10,9 +19,17 @@
 
 ---
 
-### Catatan Program
+### Tentang Program
 
-Program ini **tidak tersedia pada repo GitHub**.
+Program ini adalah aplikasi untuk **mengelola data customer, produk, dan order**. Program ini **tersedia di repositori GitHub** yang dapat diakses melalui link berikut:
+
+- **Repositori GitHub**: [https://github.com/xenzadigitalgroup/project-uas-py-zakimb.git](https://github.com/xenzadigitalgroup/project-uas-py-zakimb.git)
+
+---
+
+### Cara Menggunakan Program
+
+Untuk menjalankan program ini, Anda perlu mengikuti beberapa langkah instalasi dan konfigurasi yang diperlukan. Berikut adalah langkah-langkah yang perlu Anda ikuti:
 
 Jika Anda menginginkan program ini atau mengalami kendala terkait program ini, silakan hubungi saya di:
 
@@ -33,7 +50,7 @@ Program ini adalah aplikasi untuk **mengelola customer, produk, dan order**. Unt
      ```bash
      python -m venv myenv
      source myenv/bin/activate  # Untuk pengguna macOS/Linux
-     myenv\Scripts\activate     # Untuk pengguna Windows
+     myenv\Scripts\activate     # Untuk pengguna Windows, biasa pada windows memerlukan izin pada PowerShell, jika tidak ingin mengatur izin atau security pada PowerShell bisa gunakan git bash sebagai pengganti terminal.
      ```
 
 2. **Instalasi Dependensi**:
@@ -52,7 +69,8 @@ Program ini adalah aplikasi untuk **mengelola customer, produk, dan order**. Unt
    - Pastikan MySQL sudah terinstal dan Anda memiliki database yang dibutuhkan untuk menjalankan program ini.
    - Jalankan program dengan menggunakan perintah:
      ```bash
-     python program.py
+     python main.py
+     Note : Pastikan Anda sudah mengaktifkan environment sebelum menjalankan program.
      ```
 
 ---
